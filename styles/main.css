@@ -69,7 +69,6 @@ body {
 }
 
 .section {
-  background-image: url(/images/itachi.jpg);
   background-position: top;
   background-size: cover;
   height: 100vh;
