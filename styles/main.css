@@ -76,19 +76,11 @@ body {
 }
 
 .section__image {
+  background-image: url(/images/itachi.png);
   background-position: top;
   background-size: cover;
   height: 100vh;
   filter: brightness(0.2);
-}
-
-.section__img {
-  background-position: top;
-  background-size: cover;
-  height: 100vh;
-  position: relative;
-  background-position: top;
-  background-size: cover;
 }
 
 .section__text {
