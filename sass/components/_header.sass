@@ -1,0 +1,72 @@
+.section
+    background-image: url(/images/itachi.jpg)
+    background-position: top
+    background-size: cover
+    height: 100vh
+    position: relative
+
+    &__image
+        background-image: url(/images/itachi.jpg)
+        background-position: top
+        background-size: cover
+        height: 100vh
+        filter: brightness(.2)
+    //overflow: hidden
+
+    &__text
+        color: $color-white
+        position: absolute
+        top: 25%
+        left: 50%
+        transform: translate(-50%, -50%)
+        text-align: center
+
+    &__header
+        font-size: 4rem
+        font-weight: 100
+        font-family: 'Calligraffitti', cursive
+        margin-bottom: 1.6rem
+        text-transform: capitalize
+
+    &__subheader
+        font-size: 1.2rem
+        font-weight: 100
+        font-family: 'Lato', sans-serif
+        margin-bottom: 1.6rem
+        text-transform: capitalize
+
+    &__search
+        font-size: 1.2rem
+        padding: .5rem 0
+        border: none
+        background: $nav-background-color
+        cursor: pointer
+        outline: none
+        border-radius: .7rem
+        text-align: left
+        justify-content: left
+        width: 75%
+        position: relative
+        padding-left: 1rem
+        color: $color-grey-1
+        transition: all .3s
+
+        &::-webkit-input-placeholder
+            color: $color-grey-1
+            text-transform: capitalize
+            padding-left: 2rem
+
+        &--btn
+            background: transparent
+            color: $color-grey-1
+            border: none
+            outline: none
+
+        &--icon
+            font-size: 1.2rem
+            color: $color-grey-1
+            cursor: pointer
+            backface-visibility: hidden
+            position: absolute
+            margin-left: -3rem
+            margin-top: -1rem

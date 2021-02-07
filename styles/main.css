@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Calligraffitti&family=Lato:ital,wght@1,300&family=Roboto+Mono:wght@100;300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 62.5%;
+  font-weight: 100;
+  overflow: hidden;
+}
+
+.navigation {
+  position: relative;
+  text-align: center;
+  background: #f2f2f2;
+  height: 3.2rem;
+}
+
+.navigation__list-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40vw;
+  margin-left: 7.5rem;
+}
+
+.navigation__list-2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  float: right;
+  width: 40vw;
+  margin-right: 4.5rem;
+}
+
+.navigation__items {
+  list-style: none;
+  font-size: .9rem;
+  display: inline-block;
+  padding: 1.2rem .9rem;
+}
+
+.navigation__items--links:visited, .navigation__items--links:link {
+  color: #584f4f;
+  font-weight: 300;
+  text-decoration: none;
+  transition: all .2s ease-in-out;
+  letter-spacing: .1rem;
+}
+
+.navigation__items--links:visited:hover, .navigation__items--links:link:hover {
+  color: #584f4f;
+  letter-spacing: .23rem;
+  filter: blur(0.3px);
+  backface-visibility: hidden;
+}
+
+.navigation__logo--img {
+  position: absolute;
+  top: 0;
+  left: 43rem;
+  width: 10rem;
+  height: 2.2rem;
+  border-radius: 4rem;
+  margin-top: .7rem;
+}
+
+.section {
+  background-image: url(/images/itachi.jpg);
+  background-position: top;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+.section__image {
+  background-image: url(/images/itachi.jpg);
+  background-position: top;
+  background-size: cover;
+  height: 100vh;
+  filter: brightness(0.2);
+}
+
+.section__text {
+  color: #ffffff;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.section__header {
+  font-size: 4rem;
+  font-weight: 100;
+  font-family: 'Calligraffitti', cursive;
+  margin-bottom: 1.6rem;
+  text-transform: capitalize;
+}
+
+.section__subheader {
+  font-size: 1.2rem;
+  font-weight: 100;
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 1.6rem;
+  text-transform: capitalize;
+}
+
+.section__search {
+  font-size: 1.2rem;
+  padding: .5rem 0;
+  border: none;
+  background: #f2f2f2;
+  cursor: pointer;
+  outline: none;
+  border-radius: .7rem;
+  text-align: left;
+  justify-content: left;
+  width: 75%;
+  position: relative;
+  padding-left: 1rem;
+  color: #584f4f;
+  transition: all .3s;
+}
+
+.section__search::-webkit-input-placeholder {
+  color: #584f4f;
+  text-transform: capitalize;
+  padding-left: 2rem;
+}
+
+.section__search--btn {
+  background: transparent;
+  color: #584f4f;
+  border: none;
+  outline: none;
+}
+
+.section__search--icon {
+  font-size: 1.2rem;
+  color: #584f4f;
+  cursor: pointer;
+  backface-visibility: hidden;
+  position: absolute;
+  margin-left: -3rem;
+  margin-top: -1rem;
+}
+/*# sourceMappingURL=main.css.map */
